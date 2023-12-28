@@ -26,7 +26,12 @@ To run the project locally:
 2. Install dependencies: `cd open-house-project && npm install`
 3. Start the development server: `npm start`
 
-## Future Features and Improvements
+## Improvements
+
+- If given more time I would add more animations and provide the users better UX.
+- If we had more data from the houses API, I would use that data to sort, filter the properties to make it better for the user.
+
+## Future Features 
 
 We have exciting plans for the future of the Open House Project. Here are some high-level ideas for upcoming features and improvements:
 

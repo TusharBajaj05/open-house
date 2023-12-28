@@ -101,7 +101,7 @@ const CommunityInfo: React.FC = () => {
                     event.onerror = null;
                   }}
                 />
-                <h2 className="font-semibold">{community.name}</h2>
+                <h2 className="font-semibold mt-1">{community.name}</h2>
                 <p className="">
                   Average Price:{" "}
                   {calculateAveragePrice(community.id)

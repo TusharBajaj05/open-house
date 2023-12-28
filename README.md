@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+---
+title: Open House Project
+---
+
+# Open House Project
+
+Welcome to the Open House Project, a website that allows you to explore various communities and view the average house prices in each area. Whether you're a potential homebuyer, investor, or simply curious about real estate trends, this platform is designed to provide you with valuable insights.
 
 ## Getting Started
 
-First, run the development server:
+To begin, navigate to the website and explore the available communities. Utilize the search bar or browse the list to find the community you're interested in. Each community has its own dedicated page displaying essential information.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Community Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Name:** The name of the community.
+- **Location:** Geographical location of the community.
+- **Average Price:** Average price of houses in the community.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Local Development
 
-## Learn More
+To run the project locally:
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository: `git clone https://github.com/TusharBajaj05/open-house`
+2. Install dependencies: `cd open-house-project && npm install`
+3. Start the development server: `npm start`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Future Features and Improvements
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+We have exciting plans for the future of the Open House Project. Here are some high-level ideas for upcoming features and improvements:
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Interactive Maps:** Explore communities visually with an interactive map interface.
+- **User Profiles:** Allow users to create profiles and save their favorite communities.
+- **Comparative Analysis:** Compare house prices between different communities.
